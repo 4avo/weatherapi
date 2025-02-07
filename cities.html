@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Temperatures</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white p-6 pt-20"> <!-- Added pt-20 to push content down -->
+
+  <nav class="w-full bg-gray-800 py-4 shadow-md fixed top-0 left-0">
+    <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
+        <a href="index.html" class="text-white text-lg font-bold hover:text-orange-400 transition">Choose your city</a>
+        <a href="cities.html" class="text-white text-lg font-bold hover:text-orange-400 transition">All cities</a>
+    </div>
+  </nav>
+
+  <h2 class="text-3xl font-bold text-center mb-6">Current Temperatures in Major Cities</h2> <!-- Fixed closing tag -->
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="London"><h2 class="text-xl font-semibold">London</h2></div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="Paris"><h2 class="text-xl font-semibold">Paris</h2></div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="New York"><h2 class="text-xl font-semibold">New York</h2></div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="Tokyo"><h2 class="text-xl font-semibold">Tokyo</h2></div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="Sydney"><h2 class="text-xl font-semibold">Sydney</h2></div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="Berlin"><h2 class="text-xl font-semibold">Berlin</h2></div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="Moscow"><h2 class="text-xl font-semibold">Moscow</h2></div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="Dubai"><h2 class="text-xl font-semibold">Dubai</h2></div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="Rome"><h2 class="text-xl font-semibold">Rome</h2></div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="Madrid"><h2 class="text-xl font-semibold">Madrid</h2></div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="Toronto"><h2 class="text-xl font-semibold">Toronto</h2></div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="Beijing"><h2 class="text-xl font-semibold">Beijing</h2></div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="Mexico City"><h2 class="text-xl font-semibold">Mexico City</h2></div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="Los Angeles"><h2 class="text-xl font-semibold">Los Angeles</h2></div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="Seoul"><h2 class="text-xl font-semibold">Seoul</h2></div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="São Paulo"><h2 class="text-xl font-semibold">São Paulo</h2></div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="Mumbai"><h2 class="text-xl font-semibold">Mumbai</h2></div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="Istanbul"><h2 class="text-xl font-semibold">Istanbul</h2></div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="Cairo"><h2 class="text-xl font-semibold">Cairo</h2></div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center" data-city="Bangkok"><h2 class="text-xl font-semibold">Bangkok</h2></div>
+</div>
+
+  <script type="module" src="./assets/js/all-cities.js"></script>
+</body>
+</html>
